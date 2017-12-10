@@ -6,23 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Angular 2 - Parcel boilerplate</title>
-    <!-- Include all libraries -->
-    <!-- <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
-    <script src="node_modules/systemjs/dist/system.src.js"></script>
-    <script src="node_modules/rxjs/bundles/Rx.js"></script>
-    <script src="node_modules/angular2/bundles/angular2.dev.js"></script> -->
 
-    <!-- POLYFILLS -->
-    <script src='node_modules/es6-shim/es6-shim.min.js'></script>
-    <script src='node_modules/angular2/es6/dev/src/testing/shims_for_IE.js'></script>
+    <!-- Include and bundle all libraries -->
+    <script src='./libs.js'></script>
 </head>
 
 <body>
-    <div class='container'>
+    <main class='container'>
         <my-app>
             Loading...
         </my-app>
-    </div>
+    </main>
 
     <!-- MAIN SCRIPT -->
     <script src='./app/main.ts'></script>
