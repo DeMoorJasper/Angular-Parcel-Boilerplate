@@ -1,5 +1,8 @@
 // Bootstrap the application
-import { bootstrap } from 'angular2/platform/browser';
-import { AppComponent } from './app.component';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-bootstrap(AppComponent);
+// Local dependancies
+import { AppModule } from './app.module';
+
+platformBrowserDynamic().bootstrapModule(AppModule);
