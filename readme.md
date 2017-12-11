@@ -1,9 +1,9 @@
 # Parcel Angular *2* Boilerplate
 This is a Angular 2 boilerplate for using parcel to build/serve an angular 2 app.
 
-*This currently is using ANGULAR 2 BETA, which is the old beta version of Angular.
+*This currently is using ANGULAR 2 BETA, which is the old beta version of Angular.*
 
-Probably not a good idea to use this in production.*
+*Probably not a good idea to use this in production.*
 
 ## Details
 * Bundling: [Parsel-bundler](https://github.com/parcel-bundler/parcel)
